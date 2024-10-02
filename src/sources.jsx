@@ -8,7 +8,7 @@ import { IoCallOutline ,IoLocationOutline } from "react-icons/io5";
 import { GrUserExpert } from "react-icons/gr";
 import { MdOutlineSupportAgent,MdOutlineAlternateEmail } from "react-icons/md";
 import { RiExchange2Fill } from "react-icons/ri";
-import { FaInstagram, FaXTwitter, FaYoutube,FaLaptopCode} from "react-icons/fa6";
+import { FaLinkedin, FaXTwitter, FaYoutube,FaLaptopCode} from "react-icons/fa6";
 import { FaFacebookSquare,FaPaintBrush } from "react-icons/fa";
 import { TfiWrite } from 'react-icons/tfi'
 import {DiReact} from "react-icons/di";
@@ -28,22 +28,22 @@ export const tabs = [
 
 export const whyChooseMe = [
   {
-    title:"Unmatched Local Expertise",
+    title:"Tailored Digital Solutions",
     icon:<GrUserExpert/>,
     link:"",
   },
   {
-    title:"Comprehensive Market Analysise",
+    title:"Cutting-Edge Technology",
     icon:<IoMdAnalytics/>,
     link:"",
   },
   {
-    title:"Dedicated Client Support",
+    title:"Results-Driven Approach",
     icon:<MdOutlineSupportAgent/>,
     link:"",
   },
   {
-    title:"Innovative Marketing Strategies",
+    title:"Seamless Collaboration",
     icon:<RiExchange2Fill/>,
     link:"",
   },
@@ -52,23 +52,22 @@ export const services = [
   {
     name:"UI/UX Design",
     icon:<FaPaintBrush/>,
-    description:`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione 
-    voluptatum earum quam tempore, repellat aut vero ut eum, provident accusamus recusandae 
-    eligendi, adipisci sequi reiciendis quisquam? Sapiente optio rerum sequi!`,
+    description:`I create intuitive and visually appealing user interfaces, 
+    always focusing on user experience. My approach emphasizes simplicity, accessibility, 
+    and efficiency to deliver seamless and enjoyable navigation.`,
   },
   {
     name:"Web Development",
     icon:<FaLaptopCode/>,
-    description:`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione 
-    voluptatum earum quam tempore, repellat aut vero ut eum, provident accusamus recusandae 
-    eligendi, adipisci sequi reiciendis quisquam? Sapiente optio rerum sequi!`,
+    description:`I build modern, high-performance websites, handling both front-end 
+    and back-end development using robust technologies like HTML, CSS, JavaScript, Vue.js, 
+    and Laravel. My goal is to create scalable, fast, and secure solutions tailored to my clients' needs.`,
   },
   {
-    name:"Content Creation",
+    name:"Digital Marketing",
     icon:<TfiWrite/>,
-    description:`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione 
-    voluptatum earum quam tempore, repellat aut vero ut eum, provident accusamus recusandae 
-    eligendi, adipisci sequi reiciendis quisquam? Sapiente optio rerum sequi!`,
+    description:`I help businesses grow their online presence with effective digital marketing strategies. 
+    From SEO to managing ad campaigns, I implement solutions that attract, engage, and convert your target audience.`,
   },
   
 ]
@@ -90,6 +89,10 @@ export const skills = [
               skill:"XD",
               level:"Intermediate",
           },
+          {
+            skill:"Canva",
+            level:"Intermediate",
+        },
       ]
   },
   {
@@ -141,7 +144,7 @@ export const skills = [
               level:"Experienced",
           },
           {
-              skill:"MangoDB",
+              skill:"MongoDB",
               level:"Intermediate",
           },
           {
@@ -154,6 +157,18 @@ export const skills = [
           },
           {
               skill:"MySQL",
+              level:"Experienced",
+          },
+          {
+              skill:"PostgreSql",
+              level:"Experienced",
+          },
+          {
+              skill:"Docker",
+              level:"Experienced",
+          },
+          {
+              skill:"Jenkeins",
               level:"Experienced",
           },
       ]
@@ -344,41 +359,32 @@ export const clients = [
   {
     image:client1,
     name:'Samuel Eze',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-           veniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud 
-           exercitation ullamco laboris`
+    review:` Great collaboration! Their digital marketing strategy significantly boosted our
+     traffic, and their support has been invaluable. Results-driven approach!"`
   },
   {
     image:client2,
     name:'Richael Linda',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`
+    review:` "Amazing work! The website exceeded our expectations and was delivered on time. 
+    The team’s attention to detail and commitment to quality made a significant impact."`
   },
   {
     image:client3,
     name:'Gloria Chiwendu',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-           veniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud 
-           exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laboris`
+    review:` Professional, responsive, and results-oriented. The team was always available 
+    to answer questions, making the process seamless. Highly recommend!`
   },
   {
     image:client4,
     name:'Precious Stone',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`
+    review:` They truly understood our needs and delivered a perfect solution. Their ability to adapt
+     to our requirements made this collaboration fantastic.`
   },
   {
     image:client5,
     name:'Ndubisi John',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`
+    review:`Excellent service and top-notch development skills. The team offered creative solutions and 
+    maintained timely communication throughout the project. `
   },
 
 ];
@@ -386,26 +392,26 @@ export const clients = [
 export const contactOptions = [
   {
     title:"Email",
-    value:"mradinuba@gmail.com",
+    value:"senankpon-josue.kpodekon@epitech.eu",
     icon:<MdOutlineAlternateEmail />,
   },
   {
     title:"Phone Number",
-    value:"+2348149121918",
+    value:"+229 62937964 - 64306485",
     icon:<IoCallOutline/>,
   },
   {
     title:"Address",
-    value:"Gwarinpa, Abuja, Nigeria",
+    value:"Cotonou, Benin",
     icon:<IoLocationOutline/>,
   },
 ]
 
 export const socialHandles = [
     {
-      name:"Instagram",
-      icon:<FaInstagram />,
-      link:"",
+      name:"Linkedin",
+      icon:<FaLinkedin />,
+      link:"https://www.linkedin.com/in/senankpon-josue-kpodekon/",
     },
     {
       name:"Facebook",

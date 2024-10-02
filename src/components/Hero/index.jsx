@@ -17,9 +17,9 @@ const Hero = () => {
               A <span className="gradient-text">Fullstack</span> web Developer
             </h1>
             <p className="muted" data-aos="fade-up" data-aos-delay="200">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem perferendis tempore a, 
-              enim nesciunt totam corrupti excepturi, eaque aspernatur alias at quia fuga rem provident
-               illo eum ducimus tempora! Fugit.
+            I’m a passionate full-stack web developer with expertise in PHP, JavaScript, Vue.js, 
+            React, Next and Laravel. I love building modern, 
+            user-friendly websites and applications that combine great design with functionality.
             </p>
             <div className="flex-center buttons-wrapper">
               <Link to='services' smooth={true} className='btn primary' data-aos="fade-left" data-aos-delay="1200" data-aos-offset="50">Learn more</Link>

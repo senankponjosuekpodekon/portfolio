@@ -11,9 +11,10 @@ const About = () => {
             <span className="gradient-text">About Us</span>
           </h1>
           <h4 className="sub_title muted" data-aos="fade-left">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem impedit ipsa 
-            autem provident quas minus natus hic temporibus maxime expedita excepturi 
-            architecto voluptatibus rerum at debitis, inventore, ex ipsam reprehenderit?
+          I am specialized in UI/UX design, web development, and digital marketing, 
+          helping businesses build impactful online experiences. Our mission is 
+          to deliver customized solutions that drive growth and enhance user engagement, 
+          all while staying ahead of the latest digital trends.
           </h4>
         </div>
         <div className="group">
