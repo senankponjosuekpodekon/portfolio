@@ -123,6 +123,14 @@ export const skills = [
               skill:"React Native",
               level:"Experienced",
           },
+          {
+              skill:"Vue Js",
+              level:"Experienced",
+          },
+          {
+              skill:"Next Js",
+              level:"Experienced",
+          },
       ]
   },
   {
