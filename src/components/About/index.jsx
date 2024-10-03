@@ -10,7 +10,7 @@ const About = () => {
           <h1 className="heading-1" data-aos="fade-left">
             <span className="gradient-text">About Us</span>
           </h1>
-          <h4 className="sub_title muted" data-aos="fade-left">
+          <h4 className="sub-title muted" data-aos="fade-left">
           I am specialized in UI/UX design, web development, and digital marketing, 
           helping businesses build impactful online experiences. Our mission is 
           to deliver customized solutions that drive growth and enhance user engagement, 

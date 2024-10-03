@@ -168,7 +168,7 @@ export const skills = [
               level:"Experienced",
           },
           {
-              skill:"Jenkeins",
+              skill:"Jenkins",
               level:"Experienced",
           },
       ]

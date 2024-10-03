@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="wrapper info-container">
           <div className="column">
             <h3 className="sub-title" data-aos="fade-right">
-              Hi, I'm <span className="primary">SENANKPON JOSUE</span>
+              Hi, I'm <span className="primary">Sènankpon Josué KPODEKON</span>
             </h3>
             <h1 className="heading-1" data-aos="fade-up">
               A <span className="gradient-text">Fullstack</span> web Developer
