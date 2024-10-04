@@ -19,6 +19,14 @@
     text-align: left;
 }
 
+img.perfom-3d{
+    background-color: rgb(21, 253, 0);
+    border-radius: 10px;
+}
+div.column.hero-image.aos-init.aos-animate{
+    color: yellow;
+}
+
 #hero .wrapper .buttons-wrapper{
     justify-content: flex-start;
     margin-top: 40px;

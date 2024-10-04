@@ -28,7 +28,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="column hero-image" data-aos="fade-left" data-aos-delay="200" data-aos-offset="50">
-            <img src={me} alt="" />
+            <img src={me} alt="" className='perfom-3d' />
           </div>
         </div>
         <div className="achievement-cluster">
