@@ -6,7 +6,7 @@ const Logo = () => {
   return (
     <div className='logo'>
       <FaLaptopCode className='icon'/>
-      <h1>Stiamond</h1>
+      <h2>Stiamond</h2>
     </div>
   );
 }

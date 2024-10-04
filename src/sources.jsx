@@ -359,30 +359,35 @@ export const clients = [
   {
     image:client1,
     name:'Samuel Eze',
+    title: 'RD',
     review:` Great collaboration! Their digital marketing strategy significantly boosted our
      traffic, and their support has been invaluable. Results-driven approach!"`
   },
   {
     image:client2,
     name:'Richael Linda',
+    title: 'ENtrepreneur',
     review:` "Amazing work! The website exceeded our expectations and was delivered on time. 
     The team’s attention to detail and commitment to quality made a significant impact."`
   },
   {
     image:client3,
     name:'Gloria Chiwendu',
+    title: 'Project Manager',
     review:` Professional, responsive, and results-oriented. The team was always available 
     to answer questions, making the process seamless. Highly recommend!`
   },
   {
     image:client4,
     name:'Precious Stone',
+    title: 'Founder of Hello Service',
     review:` They truly understood our needs and delivered a perfect solution. Their ability to adapt
      to our requirements made this collaboration fantastic.`
   },
   {
     image:client5,
     name:'Ndubisi John',
+    title: 'Digital Entrepreneur',
     review:`Excellent service and top-notch development skills. The team offered creative solutions and 
     maintained timely communication throughout the project. `
   },
@@ -413,21 +418,21 @@ export const socialHandles = [
       icon:<FaLinkedin />,
       link:"https://www.linkedin.com/in/senankpon-josue-kpodekon/",
     },
-    {
-      name:"Facebook",
-      icon:<FaFacebookSquare/>,
-      link:"",
-    },
-    {
-      name:"Twitter",
-      icon:<FaXTwitter/>,
-      link:"",
-    },
-    {
-      name:"Youtube",
-      icon:<FaYoutube/>,
-      link:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-    },
+    // {
+    //   name:"Facebook",
+    //   icon:<FaFacebookSquare/>,
+    //   link:"",
+    // },
+    // {
+    //   name:"Twitter",
+    //   icon:<FaXTwitter/>,
+    //   link:"",
+    // },
+    // {
+    //   name:"Youtube",
+    //   icon:<FaYoutube/>,
+    //   link:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
+    // },
 ];
 
 export const footer = [

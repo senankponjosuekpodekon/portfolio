@@ -23,7 +23,14 @@ const Hero = () => {
             </p>
             <div className="flex-center buttons-wrapper">
               <Link to='services' smooth={true} className='btn primary' data-aos="fade-left" data-aos-delay="1200" data-aos-offset="50">Learn more</Link>
-              <Link to='contact' smooth={true} className='btn' data-aos="fade-left" data-aos-delay="1500" data-aos-offset="50">Get started</Link>
+              {/* <Link to='contact' smooth={true} className='btn' data-aos="fade-left" data-aos-delay="1500" data-aos-offset="50">Get started</Link> */}
+              <a  href="/home/josue/Rendu/portfolio/src/assets/resume.pdf" 
+                  download="resume.pdf" 
+                  smooth={true}
+                  className='btn' 
+                  data-aos="fade-left" 
+                  data-aos-delay="1500" 
+                  data-aos-offset="50">CV</a>
 
             </div>
           </div>

@@ -39,7 +39,12 @@ const Navbar = () => {
       </div>
       <SocialHandles />
       <div className="box flex-center buttons">
-        <Link to='contact' smooth={true} className='btn primary contact-btn'>Hire me</Link>
+        {/* <Link to='contact' smooth={true} className='btn primary contact-btn'>Hire me</Link> */}
+        <a  href="/home/josue/Rendu/portfolio/src/assets/resume.pdf" 
+                  download="resume.pdf" 
+                  smooth={true}
+                  className='tn primary contact-btn' 
+        >CV</a>
         <Link to='services' smooth={true} className='btn services-btn'>Services</Link>
         <div 
         className="flex-center icon-wrapper menu-btn"
