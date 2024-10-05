@@ -3,6 +3,7 @@ import "./Hero.css"
 import { Link } from 'react-scroll';
 import me from '../../assets/me.png'
 import Achievement from '../Achievement';
+import resume from '../../assets/resume.pdf'
 
 
 const Hero = () => {
@@ -22,8 +23,8 @@ const Hero = () => {
             user-friendly websites and applications that combine great design with functionality.
             </p>
             <div className="flex-center buttons-wrapper">
-              <Link to='services' smooth={true} className='btn primary' data-aos="fade-left" data-aos-delay="1200" data-aos-offset="50">Learn more</Link>
-              {/* <Link to='contact' smooth={true} className='btn' data-aos="fade-left" data-aos-delay="1500" data-aos-offset="50">Get started</Link> */}
+              <Link to='services'  smooth={true} className='btn primary' data-aos="fade-left" data-aos-delay="1200" data-aos-offset="50">Learn more</Link>
+              <a href='https://drive.google.com/file/d/1_sub6frmDsRieA_b6k_zjHN9DzjrG7Vp/view?usp=sharing' smooth={true} className='btn' data-aos="fade-left" data-aos-delay="1500" target='blank' data-aos-offset="50">Get started</a>
               <a  href="/home/josue/Rendu/portfolio/src/assets/resume.pdf" 
                   download="resume.pdf" 
                   smooth={true}

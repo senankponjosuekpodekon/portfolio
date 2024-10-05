@@ -179,7 +179,7 @@ export const skills = [
 export const projects = [
   { 
     id:1,
-    title: 'AI Powered School',
+    title: 'Portfolio',
     image: 'https://cdn.dribbble.com/userupload/10064191/file/original-091c06a630285b93a5f81e29e882fe3c.png',
     category:"UI/UX",
     description: `Transforming education with AI, our School UI Design project revolutionizes the 
@@ -187,7 +187,7 @@ export const projects = [
                      and intuitive navigation, our design empowers educators and students alike. Experience 
                      innovation at its finest as we pave the way for a smarter, more efficient educational 
                      journey.`,
-    demoLink: "https://google.com/",
+    demoLink: "https://portfolio-y38t.vercel.app/",
     stack:[
       {
         name:"XD",
@@ -198,7 +198,7 @@ export const projects = [
   },
   {
     id:2,
-    title: 'E-Commerce Application',
+    title: 'Post it project',
     image: 'https://cdn.dribbble.com/userupload/8002230/file/original-c8eec16edea4d5c836b2bfabe7fbaa5a.jpg',
     category:"Web",
     description:`Enhance your online shopping experience with our E-Commerce Application 
@@ -206,7 +206,7 @@ export const projects = [
       interface offers easy navigation, personalized recommendations, and secure 
       transactions. Elevate your digital storefront and captivate customers with a visually 
       stunning design tailored to your brand`,
-    demoLink: "https://google.com/",
+    demoLink: "https://postit-rouge-gamma.vercel.app/",
     stack:[
       {
         name:"ReactJs",
@@ -231,7 +231,7 @@ export const projects = [
   },
   {
     id:3,
-    title: 'Robotic Engineering Web Application',
+    title: 'Task management and Event calendar',
     image: 'https://s3-alpha.figma.com/hub/file/5101537097/c4a1ed2c-4ab9-43fb-a248-d7ac6b0c3161-cover.png',
     category:"Web",
     description: `Unlock the future of robotics with our Robotic Engineering Web Application
@@ -239,7 +239,7 @@ export const projects = [
       and collaborative tools, our platform empowers engineers to design, simulate, 
       and optimize robotic systems. Experience innovation at its peak as we redefine the 
       boundaries of robotic engineering.`,
-    demoLink: "https://google.com/",
+    demoLink: "https://event-calendar-wine.vercel.app",
     stack:[
       {
         name:"ReactJs",
@@ -281,7 +281,7 @@ export const projects = [
     category:"Apps",
     description: `Simplify project coordination with our intuitive Project Management application. Track tasks, collaborate in real-time, and streamline workflows effortlessly. With customizable features and robust reporting, stay organized and efficient.
                      Elevate your project management experience and achieve success with ease.`,
-    demoLink: "https://google.com/",
+    demoLink: "https://commet-six.vercel.app/",
     stack:[
       {
         name:"React Native",
@@ -310,7 +310,7 @@ export const projects = [
     image: 'https://i.pinimg.com/originals/a0/be/c3/a0bec3706210e6ab28470eee95bf5889.png',
     category:"UI/UX",
     description: `Experience banking at your fingertips with our sleek Mobile Bank app design. Seamlessly manage your finances on-the-go with intuitive navigation, secure transactions, and personalized insights. Enjoy a modern interface that prioritizes convenience and accessibility, revolutionizing your banking experience.`,
-    demoLink: "https://google.com/",
+    demoLink: "https://stiamond.com/",
     stack:[
       {
         name:"Figma",
